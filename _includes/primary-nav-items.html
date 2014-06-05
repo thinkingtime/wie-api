@@ -1,0 +1,11 @@
+<ul>
+  <li class="{% if page.overview %}current{% endif %}">
+    <a href="/">首页</a>
+  </li>
+  <li class="{% if page.url contains '/docs/' %}current{% endif %}">
+    <a href="/docs/home/">文档库</span></a>
+  </li>
+  <li>
+    <a href="{{ site.help_url }}">关于WIE</a>
+  </li>
+</ul>

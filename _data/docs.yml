@@ -1,0 +1,10 @@
+- title: WIE-API
+  docs:
+  - main
+  - news
+  - contact
+  - user
+  - comment
+  - favorite
+
+
